@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#c3c48dff;    
+    color: aliceblue;
+           
+}
+
+@media (min-width:480px){
+    .articulo .producto .consumos__table .navegacion{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+  
+
+
+.fondo{
+    background-image: url(imagenes/paisaje_mate.jpg);
+    background-size:cover; 
+    height: 50vh;
+    
+    
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    font-size: xxx-large;
+    font-family: cursive;
+}  
+.footer{
+    background-color: hsla(125, 80%, 90%, 1);
+    font-size: medium;
+    font-family: cursive;
+    color: blue;
+
+}
+
+.navegacion__link:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s;
+}
+
+.navegacion__barra{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;  
+    list-style: none;
+    color: aliceblue;   
+
+}
+
+
+.navegacion{    
+   display: flex;
+    font-size: x-large;
+    font-family: cursive;   
+    height: 10vh;  
+    justify-content: space-between;   
+    background-color: hsla(125, 80%, 90%, 1);
+}
+  
+
+
+
+ .logo{ 
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    width:50vw ;
+    max-width:200px;
+    margin: 0px 50px;        
+ } 
+
+
+.articulo {
+    display:grid;
+    height: 80vh;    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px;
+}
+
+
+
+.articulo__titulo{
+    display: grid;  
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 0px 30px;
+    grid-column: 1/5;
+}  
+
+
+
+.preparacion{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25vw 30vh;
+}
+
+.img-mate:hover{
+    height: 40vh;
+    width: 100vw;
+    transition: height 5s;
+    transition: wigth 5s;
+}
+
+.img-mate{      
+    max-width: 35vh;
+    margin: 20px 20px; 
+    
+}    
+
+
+
+
+.producto{
+    display:grid;
+    height: 80vh;    
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-rows: 100px;
+    height: 50vh;
+
+}
+
+.producto__titulo{
+     display: grid;  
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 0px 30px;
+    grid-column: 1/5;
+    height: 10vh;
+}
+.producto__img:hover{
+    height: 40vh;
+    width: 20vw;
+    transition: height, widht 10s;
+}
+
+
+.producto__img{
+    margin: 25px;   
+   height: 25vh;
+   
+
+
+}
+
+.consumos__table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+
+.articulo_mate{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+   
+}
+
+.articulo__historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-between;
+    width: 25vw;
+}
+
+.armado_mate{
+display: grid;
+grid-template-columns: repeat(2, 1fr);    
+font-size: x-large;
+font-family: cursive;
+margin: 15px;
+
+}
+.armado__titulo{
+    display: grid;    
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 30px 0px;
+    grid-column: 1/5;
+}
+
+.armado__lista{
+list-style:circle;
+ display: grid;
+ font-size: x-large;
+ justify-content: start;
+ margin: 25px;
+}
+
+ .video__mate{    
+    grid-column: 4/5;
+    height: 70vh;
+    width: 50vw;
+    align-items: center;
+   
+ 
+    }
+
+.footer{
+margin: 100px 0px 0px 0px;
+    font-size: small;
+    font-family: cursive;
+    
+}
+
+
+
+.titulo__tienda{
+    margin: 50px;
+    text-align: center;
+}
+.imagen_yerba{
+    display: inline-block;
+    max-width: 500px;
+    margin: 50px 50px;
+}
+
+
+.productos__mates{
+margin: 50px;
+font-family: cursive;
+font-size: medium;
+display: inline-block;
+
+}
+
+.productos__yerba{
+    margin: 50px;
+    font-size: medium;
+    font-family: cursive;
+    display: inline-block;
+}
+.titulo__img:hover{
+    background-color: hsla(125, 80%, 90%, 1);
+    color: black;
+    font-size: x-large;
+    width: 100px;
+    transition: height, widht 10s;
+}
+
+
+.imagen__mates{
+    max-width: 200px;
+    margin: 20px 20px;   
+    display: inline-block;    
+}
+
+.imagen__yerba{
+    display: inline-block;
+    max-resolution: 50px;
+    max-width: 200px;
+    margin: 20px 20px;
+}
+
+.productos__termos{
+    margin: 50px;
+    font-size: medium;
+    font-family: cursive;
+    display: inline-block;
+}
+
+
+.imagen__termos{
+    display: inline-block;
+    max-resolution: 50px;
+    max-width: 200px;
+    margin: 20px 20px;   
+    display: inline-block; 
+}
+.producto__accesorios {
+    margin: 50px;
+    font-size: medium;
+    font-family: cursive;
+    display: inline-block;
+}
+
+.imagen__accesorios{
+    display: inline-block;
+    max-resolution: 50px;
+    max-width: 200px;
+    margin: 20px 20px;   
+    display: inline-block
+}
+ .productos__bombilla{
+    margin: 50px;
+    font-size: medium;
+    font-family: cursive;
+    display: inline-block;
+ }
+
+ .imagen__bombilla{
+    display: inline-block;
+    max-resolution: 50px;
+    max-width: 200px;
+    margin: 20px 20px;   
+    display: inline-block
+ }
+ .iniciar__sesion{
+    height: 76.5vh;
+    font-size: xx-large;
+    font-family: cursive;    
+    text-align: center;
+ }
+
+ 
+.contacto__titulo{
+    animation: rotate 5s linear alternate 2s;
+}
+
+
+
+.contactos{
+    height: 76.5vh;
+    display: flex;    
+    align-items: center; 
+    justify-content: space-evenly; 
+    font-size: xx-large; 
+    font-family: cursive;    
+ }
+
+.nosotros{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    font-size: x-large;
+    font-family: cursive;
+    grid-template-rows: 100px;
+    height: 76.5vh;
+   
+
+    
+}
+.nosotros__titulo{
+    display: grid;  
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 30px 0px;
+    grid-column: 1/4;
+    justify-content: center;
+   
+
+}
+
+.nosotros__parrafo{
+    display: grid;
+    justify-content: flex-end;    
+    grid-column: 2/5;
+    margin: 25px ;   
+}
+
+
+
+.nosotros__imagen{
+    display: grid;
+    grid-column: 1/2;
+    height: 35vh;
+    width: 30vw;
+    padding: 25px;
+}
+
+.titulo__mateando{
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+}
+
+.imagen__iniciarsesion{
+    text-align: center;
+    max-width: 1500px;
+}
+
