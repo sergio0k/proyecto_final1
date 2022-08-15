@@ -9,16 +9,6 @@ body{
     color: aliceblue;
            
 }
-
-@media (min-width:480px){
-    .articulo .producto .consumos__table .navegacion{
-        grid-template-columns: repeat(1,1fr);
-    }
-}
-
-  
-
-
 .fondo{
     background-image: url(imagenes/paisaje_mate.jpg);
     background-size:cover; 
@@ -26,6 +16,7 @@ body{
     
     
 }
+
 
 .titulo{
     display: flex;
@@ -313,6 +304,41 @@ display: inline-block;
     margin: 20px 20px;   
     display: inline-block
  }
+
+.pagos:hover{
+    background-color:darkgoldenrod;
+    color: white;
+    transition: all .3s;
+}
+
+
+.formas_de_pagos{
+    background-color: hsla(125, 80%, 90%, 1);
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formas__pagos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulo_pago{
+    display: flex;
+    margin: 50px 50px;
+}
+
+
+
+
+
+
+
+
+
  .iniciar__sesion{
     height: 76.5vh;
     font-size: xx-large;
@@ -387,3 +413,23 @@ display: inline-block;
     max-width: 1500px;
 }
 
+#titulo-pagos{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+#seccion-pagos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+
+}
+#pagos-bancos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
