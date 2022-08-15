@@ -100,10 +100,8 @@ body{
 }
 
 .img-mate:hover{
-    height: 40vh;
-    width: 100vw;
-    transition: height 5s;
-    transition: wigth 5s;
+    transition: transform .2s;
+    transform: scale(1.5); 
 }
 
 .img-mate{      
@@ -133,9 +131,8 @@ body{
     height: 10vh;
 }
 .producto__img:hover{
-    height: 40vh;
-    width: 20vw;
-    transition: height, widht 10s;
+    transition: transform .2s;
+    transform: scale(1.5); 
 }
 
 
@@ -145,6 +142,11 @@ body{
    
 
 
+}
+
+.consumos__table:hover{
+    transition: transform .2s;
+    transform: scale(1.2); 
 }
 
 .consumos__table{
@@ -223,6 +225,37 @@ margin: 100px 0px 0px 0px;
     max-width: 500px;
     margin: 50px 50px;
 }
+
+
+.productos__mates:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+
+}
+
+.productos__yerba:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+
+}
+
+.productos__termos:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+
+}
+
+.producto__accesorios:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+
+}
+
+.productos__bombilla:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+}
+
 
 
 .productos__mates{
@@ -331,14 +364,6 @@ display: inline-block;
     margin: 50px 50px;
 }
 
-
-
-
-
-
-
-
-
  .iniciar__sesion{
     height: 76.5vh;
     font-size: xx-large;
@@ -346,12 +371,17 @@ display: inline-block;
     text-align: center;
  }
 
- 
-.contacto__titulo{
-    animation: rotate 5s linear alternate 2s;
+.contactos__titulos:hover{
+    transform: translate(0px,100px);
+    transition: all 2s ease-in-out;
+
 }
 
+.contactos__articulo:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
 
+}
 
 .contactos{
     height: 76.5vh;
