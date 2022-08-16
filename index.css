@@ -9,6 +9,10 @@ body{
     color: aliceblue;
            
 }
+body{
+    background-color: none;
+
+}
 .fondo{
     background-image: url(imagenes/paisaje_mate.jpg);
     background-size:cover; 
